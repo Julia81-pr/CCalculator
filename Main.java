@@ -13,9 +13,9 @@ public class Main {
         System.out.println("Количество платежей: ");
         double numberOfPayments= input.nextDouble();
 
-        double annuityPayment = service.calculate(sum, interestRate, numberOfPayments);
+        double monthlyPayment = service.calculate(sum, interestRate, numberOfPayments);
 
-        System.out.println("Ежемесячный платеж: "+ annuityPayment);
+        System.out.println("Ежемесячный платеж: "+ monthlyPayment);
 
 
 
